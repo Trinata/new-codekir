@@ -1,0 +1,153 @@
+
+
+a.menu div{padding:15px 15px;
+background:black;
+font-family:arial;
+color:white;
+margin-right:5px;
+margin-bottom:5px;
+float:left;
+}
+
+.box_menu{max-width:650px;border:0px solid red;min-height:100px;float:left}
+
+a.menu.m1 div, .kotak_menu.m1{background:#1e84e2;}/*biru*/
+a.menu.m2 div, .kotak_menu.m2{background:#33b354;}/* ijo */
+a.menu.m3 div, .kotak_menu.m3{background:#f1a400;}/* orange */
+a.menu.m4 div, .kotak_menu.m4{background:#732fa5;}/* ungu */
+a.menu.m5 div, .kotak_menu.m5{background:#1eb1cc;}/* biru muda */
+
+a.menu.m1_on div{background:#004a8f;}
+a.menu.m2_on div{background:#0a6421;}
+a.menu.m3_on div{background:#a26e00;}
+a.menu.m4_on div{background:#491172;}
+a.menu.m5_on div{background:#0088a1;}
+
+
+a.menu.m4_on.m_right div,a.menu.m4.m_right div{display:block;clear:both;width:90%;padding-top:10px;padding-bottom:10px;margin:0px;}
+
+
+
+a.menu.trans div, .kotak_menu.trans{background:rgba(0,0,0,0.1);}
+
+
+.box_legend{margin-top:-330px}
+.box_legend_2{margin-top:-390px}
+
+p.legend{background:rgba(255,255,255,0.2);padding:10px;color:white;display:block}
+p.legend a{color:white;}
+
+/*BACKGROUND LUAR BODY*/
+.bg_hijau{background:#009f3c;}
+.bg_orange{background:#dda600;}
+.bg_ungu{background:#590087;}
+.bg_biru{background:#007caf;}
+
+/*BACKGROUND DALAM BODY*/
+.bg_putih{background:#fff;}
+.bg_putih.body{margin-top:-10px;padding:20px;}
+.bg_putih.body p{text-align:justify}
+
+/*BACKGROUND DALAM BODY KANAN*/
+.bg_birumuda{background:#e9f1fc;padding:0px 20px;}
+
+a.sub_head{color:#424242}
+
+
+a.menu.m1 div:hover, .kotak_menu.m1:hover{background:#2090f7;}
+a.menu.m2 div:hover, .kotak_menu.m2:hover{background:#3fce64;}
+a.menu.m3 div:hover, .kotak_menu.m3:hover{background:#ffb71c;}
+a.menu.m4 div:hover, .kotak_menu.m4:hover{background:#955dbf;}
+a.menu.m5 div:hover, .kotak_menu.m5:hover{background:#39c4de;}
+
+a.menu.trans div:hover, .kotak_menu.m6:hover{background:rgba(0,0,0,0.2);}
+
+.logo{max-width:600px;border:0px solid red;min-height:100px;float:left}
+
+.laper{width:100%;height:350px;}
+.laper2{width:100%;height:10px;clear:both}
+.laper3{width:100%;height:10px;}
+.laper4{width:100%;height:20px;}
+
+.sub_top_menu{height:400px}
+
+.box_kotak_menu{border:0px solid red;
+			width:620px;
+			height:200px;
+			margin-bottom:10px;
+			float:left}
+			
+	.kotak_menu{height:200px;
+				width:300px;
+				background:#6ba9f2;
+				float:left;
+				margin:0px 10px 0px 0px;}
+	
+	.kotak_menu h3{text-align:center;
+				color:white;
+				background:rgba(0,0,0,0.2);
+				padding:15px 10px;
+				font-family:arial}
+
+	.kotak_menu p{color:white;
+				padding:0px 20px;
+				font-family:arial}
+				
+div.box_gallery{background-color:#efefef;width:100%;padding:10px;margin:10px 0px;}
+p.gallery{margin-top:0px;color:gray;padding:5px;text-align:left;}
+p.gallery small{font-size:10px;}
+
+table.peraturan{font-size:14px;margin:20px 0px 10px 30px;}
+table.peraturan_kanan{font-size:12px;margin:0px 0px 10px 0px}
+table.peraturan td,table.peraturan_kanan td{padding:5px;vertical-align:top;}
+table.peraturan td.img{vertical-align:top;width:120px;}
+					
+
+.footer{width:100%;
+		background:rgba(0,0,0,0.5);
+		bottom:0px;
+		left:0px;
+		position:fixed;
+		text-align:right;
+		clear:both;
+		z-index:100}
+.footer p{margin:10px 10px;font-family:arial;color:white;font-size:12px;}
+
+.sitemap, .sitemap a{color:white;background:#355b8f;}
+.footer_sub{color:white;background:#2b4c79;padding:10px 0px;}
+
+/* ============================== CMS ===================================*/
+
+		.head_cms{background:#1f4e79;color:white;}
+		.head_cms_judul h3{margin:10px 0px 10px 30px}
+		.head_cms_search{margin:15px 20px 10px 0px;}
+		
+		.user_area{background:#2e75b6;color:white;}
+		.foto_user img{height:30px;border:3px solid white;margin:10px 10px 10px 30px}
+		.menu_user{padding-top:15px;}
+		.is_menu_user{float:right;margin:0px 5px 10px 0px;}
+		
+		
+	
+		.navbar .nav li.menu_label{padding:10px 0px 0px 10px;display:block;width:100%;font-size:12px}
+		.navbar .nav li.menu_label{padding:10px 0px 0px 15px;display:block;width:100%;font-size:12px}
+		.navbar .nav li a{display:block;font-size:12px}
+		.menu_head{background:#262626;font-size:12px;color:white;}
+		.menu_head ul.nav > li > a {color:white;text-shadow:none}
+		.menu_head ul.nav > li > a:hover{color:white;}
+		.navbar .nav > li > a:hover{text-decoration:underline;font-size:12px}
+		
+		.cms_kanan{margin-left:10;padding:0}
+			.sub_menu_in{background:green;padding:10px 20px;font-size:12px;color:white;float:left;margin:0px 10px 0px 0px;}
+			.sub_menu_in:hover,.sub_menu_in.on{text-decoration:none;background:#0cbd3e;color:white}
+			
+			h4.title_sub_menu_in{display:block;background:#222a35;color:white;padding:10px 30px 10px 30px;}
+			
+			.table-striped > tr > th{background:red}
+			.table tr th,.table tr td{text-align:center;font-size:12px;}
+			.table tr td.berita{text-align:left;}
+			
+		.new_input{display:block;background:#e5e5e5;padding:20px;}
+		
+		.footer_cms{text-align:center;background:#1f4e79;color:white;font-size:12px;padding:10px;}
+	

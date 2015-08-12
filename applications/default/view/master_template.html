@@ -1,0 +1,25 @@
+{include file="meta.html"}
+<body>
+
+
+	{if $page.page!='login'}
+    <div id="wrapper">
+		
+		{if $page.page!='setting' and $page.function!='setCategory'} 
+
+			{include file="menu.html"}
+		{/if}
+
+    {/if}    
+	
+	
+		{$content}
+		
+		
+	{if $page.page!='login'}	
+	</div>
+	{/if} 
+
+
+	{include file="footer.html"}
+	

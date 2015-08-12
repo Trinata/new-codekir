@@ -1,0 +1,47 @@
+<div class="wrapper">
+    <div id="identity">
+        <span id="flora">FLORA</span><span id="kalbar"> KALBAR</span>
+    </div>
+    <div id="slogan">
+        <p>Records of Plants of Kalimantan Barat</p>
+    </div>
+    
+    {if $user.login.name}
+    
+    
+    <div id="login" class="loginwelcome"> 
+        {if $page.page!=='activate'}
+        <a id="welcome" href="#" class="btn welcome">Welcome, {$user.login.name}</a> 
+        {/if}
+        <div id="box-user">
+        <ul>
+            <li style="border-bottom: 1px dotted #0095a2;border-top: 1px dotted #0095a2;"><a href="{$basedomain}user/editProfile">Setting</a></li>
+            <li><a href="{$basedomain}logout.php">Logout</a></li>
+        </ul>
+    </div>
+        
+    </div>
+    
+    <div class="clear"></div>
+    
+    
+    <script type="text/javascript">
+    {literal}
+        $(document).ready(function () {
+            $('a.welcome').click(function(){
+                $('a#welcome').toggleClass('drop');
+                $('#box-user').toggle();
+            });
+        });
+    {/literal}
+    </script>
+    
+    {else}
+    <div id="login"> 
+        <a href="#signup-modal" id="btn-signup" class="btn signup">Sign Up</a> 
+        <a href="#login-modal" id="btn-login" class="btn login">Login</a> 
+    </div>
+    <div class="clear"></div>
+	{/if}
+</div>
+<div class="clear"></div>
