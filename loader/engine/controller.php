@@ -36,6 +36,17 @@ class Controller extends Application{
         $this->view->assign('rootpath',$rootpath);
 		$this->view->assign('page',$DATA[$this->configkey]);
 		
+		/* assign define 
+		$this->view->assign('CODEKIR_ROOTPATH',CODEKIR_ROOTPATH);
+		$this->view->assign('CODEKIR_PACKAGE',CODEKIR_PACKAGE);
+		$this->view->assign('CODEKIR_APPPATH',CODEKIR_APPPATH);
+		$this->view->assign('CODEKIR_COREPATH',CODEKIR_COREPATH);
+		$this->view->assign('CODEKIR_ADMINPATH',CODEKIR_ADMINPATH);
+		$this->view->assign('CODEKIR_LIBS',CODEKIR_LIBS);
+		$this->view->assign('CODEKIR_LOGS',CODEKIR_LOGS);
+		$this->view->assign('CODEKIR_CACHE',CODEKIR_CACHE);
+		$this->view->assign('CODEKIR_TMP',CODEKIR_TMP);
+		*/
 		
 		if ($this->configkey=='default')$this->view->assign('user',$this->isUserOnline());
 		if ($this->configkey=='admin')$this->view->assign('admin',$this->isAdminOnline());
