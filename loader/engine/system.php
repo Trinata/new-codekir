@@ -11,6 +11,8 @@ define ('APP_MODELS', CODEKIR_APPPATH.'model/');
 
 require_once (CODEKIR_COREPATH.'loader.php');
 
+is_devel(debug);
+
 if (is_array($CONFIG)) {
 	
 	if ($CONFIG['default']['app_underdevelopment'] == TRUE) under_development();

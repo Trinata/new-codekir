@@ -66,4 +66,10 @@ function db($var=false)
 	debug($var);
 }
 
+function is_devel($param=false)
+{
+	if($param)error_reporting(E_ALL);
+	error_reporting(0);
+	
+}
 ?>
