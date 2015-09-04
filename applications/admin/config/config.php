@@ -19,11 +19,11 @@ $CONFIG['admin']['default_view'] = 'home';
 $CONFIG['admin']['login'] = 'login';
 
 
-$CONFIG['admin']['app_url'] = 'http://localhost/codekir/v1.1/';
-$CONFIG['admin']['base_url'] = 'http://localhost/codekir/v1.1/applications/admin/';
-$CONFIG['admin']['root_path'] = $_SERVER['DOCUMENT_ROOT'].'/codekir/v1.1/applications/admin';
+$CONFIG['admin']['app_url'] = 'http://localhost/new-codekir';
+$CONFIG['admin']['base_url'] = 'http://localhost/new-codekir/applications/admin/';
+$CONFIG['admin']['root_path'] = $_SERVER['DOCUMENT_ROOT'].'/new-codekir/applications/admin';
 
-$CONFIG['admin']['upload_path'] = $_SERVER['DOCUMENT_ROOT'].'/codekir/v1.1/applications/public_assets/';
+$CONFIG['admin']['upload_path'] = $_SERVER['DOCUMENT_ROOT'].'/new-codekir/applications/public_assets/';
 
 $CONFIG['admin']['max_filesize'] = 2097152;
 

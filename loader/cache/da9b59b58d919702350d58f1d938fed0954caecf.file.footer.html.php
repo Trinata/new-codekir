@@ -1,21 +1,55 @@
-
+<?php /* Smarty version Smarty-3.1.15, created on 2015-08-18 07:07:32
+         compiled from "/home/erjoned/Data/xampp/htdocs/codekir-cms/applications/default/view/footer.html" */ ?>
+<?php /*%%SmartyHeaderCode:75281482655d27744dc2ad6-71825881%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'da9b59b58d919702350d58f1d938fed0954caecf' => 
+    array (
+      0 => '/home/erjoned/Data/xampp/htdocs/codekir-cms/applications/default/view/footer.html',
+      1 => 1439778876,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '75281482655d27744dc2ad6-71825881',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'basedomain' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_55d27744e047f8_05201740',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_55d27744e047f8_05201740')) {function content_55d27744e047f8_05201740($_smarty_tpl) {?>
 
     <!-- Core Scripts - Include with every page -->
-    <script src="{$basedomain}applications/default/assets/js/jquery-1.10.2.js"></script>
-    <script src="{$basedomain}applications/default/assets/js/bootstrap.min.js"></script>
-    <script src="{$basedomain}applications/default/assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['basedomain']->value;?>
+assets/js/jquery-1.10.2.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['basedomain']->value;?>
+assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['basedomain']->value;?>
+assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 
     <!-- Page-Level Plugin Scripts - Dashboard -->
-    <script src="{$basedomain}applications/default/assets/js/plugins/morris/raphael-2.1.0.min.js"></script>
-    <script src="{$basedomain}applications/default/assets/js/plugins/morris/morris.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['basedomain']->value;?>
+assets/js/plugins/morris/raphael-2.1.0.min.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['basedomain']->value;?>
+assets/js/plugins/morris/morris.js"></script>
 
     <!-- SB Admin Scripts - Include with every page -->
-    <script src="{$basedomain}applications/default/assets/js/sb-admin.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['basedomain']->value;?>
+assets/js/sb-admin.js"></script>
 
     <!-- Page-Level Demo Scripts - Dashboard - Use for reference -->
-    <script src="{$basedomain}applications/default/assets/js/demo/dashboard-demo.js"></script>
-	 <script src="{$basedomain}applications/default/assets/js/jquery.imagesloaded.js"></script>
-		  <script src="{$basedomain}applications/default/assets/js/jquery.wookmark.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['basedomain']->value;?>
+assets/js/demo/dashboard-demo.js"></script>
+	 <script src="<?php echo $_smarty_tpl->tpl_vars['basedomain']->value;?>
+assets/js/jquery.imagesloaded.js"></script>
+		  <script src="<?php echo $_smarty_tpl->tpl_vars['basedomain']->value;?>
+assets/js/jquery.wookmark.js"></script>
 		  <script type="text/javascript">
 		    (function ($){
 		      var $tiles = $('#tiles'),
@@ -72,3 +106,4 @@
 </body>
 
 </html>
+<?php }} ?>

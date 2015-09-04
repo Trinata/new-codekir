@@ -11,23 +11,23 @@ class loginHelper extends Database {
 	function goLogin()
 	{
 		// pr($_POST);
-		$username = _p('username');
-		$password = _p('password');
+		$res['username'] = _p('username');
+		$res['password'] = _p('password');
 		
 		// pr($data);		
 		
-		$sql = "SELECT * FROM florakb_person WHERE username = '{$username}' LIMIT 1";
+		// $sql = "SELECT * FROM florakb_person WHERE username = '{$username}' LIMIT 1";
 		// pr($sql);
-		$res = $this->fetch($sql,0,1);
+		// $res = $this->fetch($sql,0,1);
 		
 		if ($res){
-			$salt = sha1($password.$res['salt']);
+			// $salt = sha1($password.$res['salt']);
 			// pr($salt);exit;
 			// $getRule = "SELECT * FROM cdc_group_rule WHERE groupID = {$res['usertype']} LIMIT 1 ";
 			// $res['rule'] = $this->fetch($getRule);
 			// pr($res);
 			// exit;
-			if ($res['password'] == $salt){
+			if ($res['password'] == $res['username']){
 				// $_SESSION['admin'] = $res;
 
 				$this->session->set_session($res);

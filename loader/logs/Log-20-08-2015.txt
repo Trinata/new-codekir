@@ -1,0 +1,3 @@
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1

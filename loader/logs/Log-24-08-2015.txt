@@ -1,0 +1,35 @@
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+N;
+N;
+N;
+N;
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+a:5:{s:4:"name";s:12:"IMAG1825.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpnb28nK";s:5:"error";i:0;s:4:"size";i:936411;}
+a:5:{s:4:"name";s:12:"IMAG1695.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpGAuWH1";s:5:"error";i:0;s:4:"size";i:1123592;}
+a:5:{s:4:"name";s:12:"IMAG1826.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/php4iF9XK";s:5:"error";i:0;s:4:"size";i:1116056;}
+a:5:{s:4:"name";s:12:"IMAG1826.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/php003zBR";s:5:"error";i:0;s:4:"size";i:1116056;}
+a:5:{s:4:"name";s:12:"IMAG1825.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpyLXoAY";s:5:"error";i:0;s:4:"size";i:936411;}
+a:5:{s:4:"name";s:12:"IMAG1825.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpV0j7Y1";s:5:"error";i:0;s:4:"size";i:936411;}
+a:5:{s:4:"name";s:12:"IMAG1701.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpEUt7Tc";s:5:"error";i:0;s:4:"size";i:1060425;}
+a:5:{s:4:"name";s:12:"IMAG1825.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phppYXJ8Y";s:5:"error";i:0;s:4:"size";i:936411;}
+a:5:{s:4:"name";s:12:"IMAG1825.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpUxPhWT";s:5:"error";i:0;s:4:"size";i:936411;}
+a:5:{s:4:"name";s:12:"IMAG1825.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpp0qBOc";s:5:"error";i:0;s:4:"size";i:936411;}
+a:5:{s:4:"name";s:12:"IMAG1825.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpr6YJNd";s:5:"error";i:0;s:4:"size";i:936411;}
+a:5:{s:4:"name";s:12:"IMAG1825.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpzO7lW6";s:5:"error";i:0;s:4:"size";i:936411;}
+a:5:{s:4:"name";s:12:"IMAG1695.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpNxCMEX";s:5:"error";i:0;s:4:"size";i:1123592;}
+a:5:{s:4:"name";s:12:"IMAG1694.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpTgn9wJ";s:5:"error";i:0;s:4:"size";i:1059520;}
+a:5:{s:4:"name";s:12:"IMAG1694.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpdd6S5J";s:5:"error";i:0;s:4:"size";i:1059520;}
+a:5:{s:4:"name";s:12:"IMAG1694.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/php5X9aPK";s:5:"error";i:0;s:4:"size";i:1059520;}
+a:5:{s:4:"name";s:12:"IMAG1694.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpFhMq1q";s:5:"error";i:0;s:4:"size";i:1059520;}
+a:5:{s:4:"name";s:12:"IMAG1694.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpFqOOOx";s:5:"error";i:0;s:4:"size";i:1059520;}
+a:5:{s:4:"name";s:12:"IMAG1694.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpAIu8V8";s:5:"error";i:0;s:4:"size";i:1059520;}
+a:5:{s:4:"name";s:12:"IMAG1694.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpZJElQT";s:5:"error";i:0;s:4:"size";i:1059520;}
+a:5:{s:4:"name";s:12:"IMAG1694.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpPF8abw";s:5:"error";i:0;s:4:"size";i:1059520;}
+a:5:{s:4:"name";s:12:"IMAG1694.jpg";s:4:"type";s:10:"image/jpeg";s:8:"tmp_name";s:14:"/tmp/phpSq0Rnu";s:5:"error";i:0;s:4:"size";i:1059520;}
+INSERT INTO ck_news_content (title,file,content) VALUES ('sdsf', '5c57e0519018ba5a867de4cb982ddec2.jpg', '&lt;p&gt;dsfsd&lt;br&gt;&lt;/p&gt;')
+INSERT INTO ck_news_content (title,file,content) VALUES ('sdsf', '5c57e0519018ba5a867de4cb982ddec2.jpg', '&lt;p&gt;dsfsd&lt;br&gt;&lt;/p&gt;')
+INSERT INTO ck_news_content (title,file,content) VALUES ('sdsf', '5c57e0519018ba5a867de4cb982ddec2.jpg', '&lt;p&gt;dsfsd&lt;br&gt;&lt;/p&gt;')
+INSERT INTO ck_news_content (title,file,content) VALUES ('sdsf', '5c57e0519018ba5a867de4cb982ddec2.jpg', '&lt;p&gt;dsfsd&lt;br&gt;&lt;/p&gt;')
+INSERT INTO ck_news_content (title,file,content) VALUES ('sdsf', '5c57e0519018ba5a867de4cb982ddec2.jpg', '&lt;p&gt;dsfsd&lt;br&gt;&lt;/p&gt;')

@@ -38,6 +38,8 @@ class Controller extends Application{
 		
 		
 		if ($this->configkey=='default')$this->view->assign('user',$this->isUserOnline());
+		if ($this->configkey=='default')$this->view->assign('currentTheme',$this->currentTheme());
+		if ($this->configkey=='default')$this->view->assign('menuData',$this->menuData());
 		if ($this->configkey=='admin')$this->view->assign('admin',$this->isAdminOnline());
 		if ($this->configkey=='dashboard')$this->view->assign('dashboard',$this->isAdminOnline());
 		if ($this->configkey=='services')$this->view->assign('services',$this->isAdminOnline());
@@ -49,6 +51,8 @@ class Controller extends Application{
 
 		
 		if (file_exists($filePath)){
+			// $this->configkey="admin";
+			// $this->isAdminOnline=true;
 			
 			if ($DATA[$this->configkey]['page']!=='login'){
 				if (array_key_exists('admin',$CONFIG)) {
@@ -338,6 +342,25 @@ class Controller extends Application{
 		return false;
 		
 	}
+	function currentTheme(){
+		$this->loadModel('helper_model');
+
+		$getHelper = new helper_model;
+
+		$data=$getHelper->getCurrentTheme();
+
+		return $data;
+	}
+	function menuData(){
+		$this->loadModel('helper_model');
+
+		$getHelper = new helper_model;
+
+		$data=$getHelper->getMenuData();
+
+		return $data;
+	}
+
 	
 }
 

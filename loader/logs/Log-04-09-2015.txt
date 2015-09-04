@@ -1,0 +1,295 @@
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+UPDATE ck_options SET option_value='bonfire2' WHERE option_id=1 AND n_status=1
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+UPDATE ck_options SET option_value='bigshope' WHERE option_id=1 AND n_status=1
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+UPDATE ck_options SET option_value='bonfire2' WHERE option_id=1 AND n_status=1
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT id,title FROM ck_news_content WHERE articleType='1'
+SELECT id,title FROM ck_news_content WHERE articleType='1'
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='2' WHERE id_menu='9'
+UPDATE ck_menu SET ordering='4',parent_id='2' WHERE id_menu='7'
+UPDATE ck_menu SET ordering='5',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='6',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='7',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='8',parent_id='3' WHERE id_menu='8'
+UPDATE ck_menu SET ordering='9',parent_id='3' WHERE id_menu='6'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='2' WHERE id_menu='9'
+UPDATE ck_menu SET ordering='4',parent_id='2' WHERE id_menu='7'
+UPDATE ck_menu SET ordering='5',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='6',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='7',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='8',parent_id='3' WHERE id_menu='8'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='2' WHERE id_menu='9'
+UPDATE ck_menu SET ordering='4',parent_id='2' WHERE id_menu='7'
+UPDATE ck_menu SET ordering='5',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='6',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='7',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='8',parent_id='3' WHERE id_menu='8'
+UPDATE ck_menu SET ordering='9',parent_id='0' WHERE id_menu='6'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_options WHERE option_name = 'current_theme'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT id,title FROM ck_news_content WHERE articleType='1'
+SELECT id,title FROM ck_news_content WHERE articleType='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT id,title FROM ck_news_content WHERE articleType='1'
+SELECT id,title FROM ck_news_content WHERE articleType='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT id,title FROM ck_news_content WHERE articleType='1'
+SELECT id,title FROM ck_news_content WHERE articleType='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT id,title FROM ck_news_content WHERE articleType='1'
+SELECT id,title FROM ck_news_content WHERE articleType='1'

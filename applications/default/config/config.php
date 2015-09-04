@@ -14,10 +14,10 @@ $CONFIG['default']['admin'] = false;
 $CONFIG['default']['salt'] = "";
 $CONFIG['default']['hostname'] = "";
 
-$CONFIG['default']['base_url'] = 'http://localhost/codekir/v1.1/';
-$CONFIG['default']['root_path'] = $_SERVER['DOCUMENT_ROOT'].'/codekir/v1.1';
+$CONFIG['default']['base_url'] = 'http://localhost/new-codekir/';
+$CONFIG['default']['root_path'] = $_SERVER['DOCUMENT_ROOT'].'/new-codekir';
 
-$CONFIG['default']['upload_path'] = $_SERVER['DOCUMENT_ROOT'].'/codekir/v1.1/tmp/';
+$CONFIG['default']['upload_path'] = $_SERVER['DOCUMENT_ROOT'].'/new-codekir/tmp/';
 $CONFIG['default']['max_filesize'] = 2097152;
 $CONFIG['default']['upload_path_temporary'] = "/home/";
 $CONFIG['default']['zip_foldername'] = "PUT_YOUR_ZIP_HERE";
