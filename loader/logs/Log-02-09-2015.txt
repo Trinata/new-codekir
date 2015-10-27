@@ -1,0 +1,700 @@
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_category AS cat1 
+					JOIN ck_category_description AS catd ON cat1.category_id = catd.category_id
+					ORDER BY cat1.date_added DESC
+SELECT * FROM ck_category AS cat1 
+					JOIN ck_category_description AS catd ON cat1.category_id = catd.category_id
+					ORDER BY cat1.date_added DESC
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT category_id, name FROM ck_category_description
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu 
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='5',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='6',parent_id='3' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='5',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='6',parent_id='3' WHERE id_menu='6'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='3',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='5',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='6',parent_id='3' WHERE id_menu='6'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='3',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='4',parent_id='3' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='5',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='6',parent_id='0' WHERE id_menu='2'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='3',parent_id='3' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='4',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='5',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='6',parent_id='0' WHERE id_menu='2'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='3',parent_id='3' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='5',parent_id='4' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='6',parent_id='0' WHERE id_menu='2'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='3',parent_id='3' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='5',parent_id='4' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='6',parent_id='4' WHERE id_menu='2'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='3',parent_id='3' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='5',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='6',parent_id='4' WHERE id_menu='5'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='3',parent_id='3' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='5',parent_id='0' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='6',parent_id='0' WHERE id_menu='4'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='4',parent_id='3' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='5',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='6',parent_id='0' WHERE id_menu='4'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu='3'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu='3'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='0' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='5',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='6',parent_id='0' WHERE id_menu='4'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='5',parent_id='3' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='6',parent_id='3' WHERE id_menu='6'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_user WHERE username = 'admin' LIMIT 1
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='5'
+UPDATE ck_menu SET ordering='5',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='6',parent_id='3' WHERE id_menu='6'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu='1'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE id_menu=''
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+UPDATE ck_menu SET ordering='1',parent_id='0' WHERE id_menu='1'
+UPDATE ck_menu SET ordering='2',parent_id='0' WHERE id_menu='2'
+UPDATE ck_menu SET ordering='3',parent_id='0' WHERE id_menu='4'
+UPDATE ck_menu SET ordering='4',parent_id='0' WHERE id_menu='3'
+UPDATE ck_menu SET ordering='5',parent_id='3' WHERE id_menu='6'
+UPDATE ck_menu SET ordering='6',parent_id='3' WHERE id_menu='5'
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
+SELECT * FROM ck_menu WHERE parent_id='0' order by ordering
