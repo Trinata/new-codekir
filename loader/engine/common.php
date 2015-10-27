@@ -166,6 +166,8 @@ function uploadFile($data,$path=null,$ext='image'){
         'real_name' => ''
     );
     */
+	
+	// pr($_FILES);
     if($ext){
         if (!in_array($_FILES[$data]['type'], $CONFIG[$key][$ext])){
             $result = array(

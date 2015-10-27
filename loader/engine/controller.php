@@ -36,7 +36,9 @@ class Controller extends Application{
         $this->view->assign('rootpath',$rootpath);
 		$this->view->assign('page',$DATA[$this->configkey]);
 		
-		/* assign define 
+
+		
+		
 		$this->view->assign('CODEKIR_ROOTPATH',CODEKIR_ROOTPATH);
 		$this->view->assign('CODEKIR_PACKAGE',CODEKIR_PACKAGE);
 		$this->view->assign('CODEKIR_APPPATH',CODEKIR_APPPATH);
@@ -46,7 +48,8 @@ class Controller extends Application{
 		$this->view->assign('CODEKIR_LOGS',CODEKIR_LOGS);
 		$this->view->assign('CODEKIR_CACHE',CODEKIR_CACHE);
 		$this->view->assign('CODEKIR_TMP',CODEKIR_TMP);
-		*/
+		$this->view->assign('CODEKIR_TEMPLATE',CODEKIR_TEMPLATE);
+		
 		
 		if ($this->configkey=='default')$this->view->assign('user',$this->isUserOnline());
 		if ($this->configkey=='admin')$this->view->assign('admin',$this->isAdminOnline());
@@ -147,8 +150,8 @@ class Controller extends Application{
 			}
 			
 			// $masterTemplate = APP_VIEW.'master_template'.$this->php_ext;
-			$masterTemplate = APP_VIEW.'master_template'.$this->html_ext;
-			// pr($masterTemplate);
+			$masterTemplate = APP_VIEW . CODEKIR_TEMPLATE . '/master/master_template'.$this->html_ext;
+			// pr($masterTemplate);exit;
 			if (file_exists($masterTemplate)){
 				
 				$title = $this->page;

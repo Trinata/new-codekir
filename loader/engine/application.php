@@ -134,7 +134,7 @@ class Application {
 		$this->view->assign('app_domain',$app_domain);
         $this->view->assign('rootpath',$rootpath);
 		
-		$fullFileName = APP_VIEW.$fileName.$html_ext;
+		$fullFileName = APP_VIEW  . $fileName.$html_ext;
 		// pr($fullFileName);
 		/* include file view */
 		if (is_file($fullFileName)) {

@@ -6,7 +6,7 @@
  */
 
 define ('APP_CONTROLLER', CODEKIR_APPPATH.'controller/');
-define ('APP_VIEW', CODEKIR_APPPATH.'view/');
+define ('APP_VIEW', CODEKIR_APPPATH.'view/theme/');
 define ('APP_MODELS', CODEKIR_APPPATH.'model/');
 
 require_once (CODEKIR_COREPATH.'loader.php');

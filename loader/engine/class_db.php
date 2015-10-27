@@ -134,7 +134,7 @@ class Database
 	
 
 	
-	public function fetch($data=false, $loop=false, $dbuse=0)
+	public function fetch($data=false, $loop=1, $dbuse=0)
 	{
 		/* $dbuse [0] = config default database */
 		// pr($dbuse);
@@ -184,7 +184,7 @@ class Database
 	
 	public function fetch_field($data)
 	{
-		$this->var_result = $data;
+		$this->var_result = $this->query($data);
 		
 		return mysql_fetch_field($this->var_result);
 	}
