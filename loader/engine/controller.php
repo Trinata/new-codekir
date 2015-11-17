@@ -37,7 +37,7 @@ class Controller extends Application{
 		$this->view->assign('page',$DATA[$this->configkey]);
 		
 
-		
+
 		
 		$this->view->assign('CODEKIR_ROOTPATH',CODEKIR_ROOTPATH);
 		$this->view->assign('CODEKIR_PACKAGE',CODEKIR_PACKAGE);
@@ -58,11 +58,11 @@ class Controller extends Application{
 		if ($this->configkey=='dashboard')$this->view->assign('dashboard',$this->isAdminOnline());
 		if ($this->configkey=='services')$this->view->assign('services',$this->isAdminOnline());
 		
+
 		if ($this->configkey=='admin'){
 			// $this->view->assign('menu',$this->menuDinamis());
 		}
 
-		
 		if (file_exists($filePath)){
 			// $this->configkey="admin";
 			// $this->isAdminOnline=true;
@@ -153,7 +153,7 @@ class Controller extends Application{
 			}
 			
 			// $masterTemplate = APP_VIEW.'master_template'.$this->php_ext;
-			$masterTemplate = APP_VIEW . CODEKIR_TEMPLATE . '/master/master_template'.$this->html_ext;
+			$masterTemplate = APP_VIEW . CODEKIR_TEMPLATE . '/master_template/master_template'.$this->html_ext;
 			// pr($masterTemplate);exit;
 			if (file_exists($masterTemplate)){
 				
