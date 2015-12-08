@@ -147,6 +147,10 @@ $route = substr($route, strlen('/index.php'));
 $controller = new Controller;
 $controller->index();
 
+if (CACHE_DB){
+	$initDB = new Database;
+	$initDB->initialitation();
+}
 exit;
 
 ?>

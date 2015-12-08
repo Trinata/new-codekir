@@ -40,6 +40,11 @@ class Database
 		
 	}
 	
+	function initialitation()
+	{
+		$this->cacheTable();
+	}
+
 	public function open_connection($dbuse) {
 		
 		global $dbConfig, $CONFIG;
@@ -461,6 +466,173 @@ class Database
 
 		
 		return false;
+	}
+
+	function getTableList()
+	{
+		global $dbConfig;
+
+		$sql = "SHOW TABLES FROM {$dbConfig[0]['name']}";
+		$res = $this->fetch($sql,1);
+		if ($res){
+			foreach ($res as $key => $value) {
+				$listTable[] = $value['Tables_in_' . $dbConfig[0]['name']];
+			}
+			return $listTable;	
+		} 
+		return false;
+	}
+
+	function getTableStructure($table)
+	{
+		$sql = "DESC {$table}";
+		$res = $this->fetch($sql,1);
+		if ($res) return $res;	
+		return false;
+	}
+
+	function cacheTable()
+	{
+		$pathcache = CODEKIR_TMP . 'table/';
+		if (!file_exists($pathcache)) {
+			mkdir($pathcache);
+		}
+		$getTableList = $this->getTableList();
+		if ($getTableList){
+
+			foreach ($getTableList as $key => $value) {
+				if (!file_exists($pathcache . $value)){
+
+					$sturcture = $this->getTableStructure($value);
+					logFile('create table cache '. $value);
+					$handle = fopen($pathcache.$value, "a");
+					
+					fwrite($handle, serialize($sturcture) ."\n");
+					fclose($handle);
+					
+				}
+			}
+		}
+		
+	}
+
+	function save($method = "insert", $table=false, $data=false, $condition=false, $debug=false)
+	{
+
+		// $method = $param['method'];
+		// $action = $param['action'];
+
+		$filepath = CODEKIR_TMP . 'table/';
+		
+		if ($table){
+			if (is_array($table)){
+
+			}else{
+				$openFile = openFile($filepath . $table);
+				$tablestructure = $this->unserialTable($openFile);
+				
+				if ($data){
+					foreach ($data as $key => $value) {
+						if (in_array($key, $tablestructure['fields'])){
+							$fields[] = $key;
+							$values[] = "'{$value}'";
+							$field_values[] = "{$key} = '{$value}'";
+						}
+					}
+
+					$impFields = implode(',', $fields);
+					$impValues = implode(',', $values);
+					$impfield_values = implode(',', $field_values);
+
+					if ($method == 'insert') {
+						$sql = array(
+				                    'table' =>"{$table}",
+				                    'field' => "{$impFields}",
+				                    'value' => "{$impValues}",
+				                );
+						$runmethod = 1;
+					} else if ($method == 'update') {
+						$sql = array(
+				                    'table' =>"{$table}",
+				                    'field' => "{$impfield_values}",
+				                    'condition' => "{$condition}",
+				                );
+						$runmethod = 2;
+					}
+					
+			        $result = $this->lazyQuery($sql,$debug,$runmethod);
+			        if ($result) return true;
+			        return false;
+				}
+			}
+		}
+	}
+
+	function unserialTable($serialize=false, $rawdata=false)
+	{
+
+		$unserial = unserialize($serialize);
+		
+		$dataArr = array();
+		if ($unserial){
+			foreach ($unserial as $key => $value) {
+				$dataArr['fields'][] = $value['Field'];
+			}
+
+			if ($rawdata) $dataArr['raw'] = $unserial;
+			
+			return $dataArr;
+		}
+		return false;
+	}
+
+	function fetchSingleTable($table=false, $condition=array(), $order='ASC', $debug=false)
+	{
+
+		global $dbConfig;
+
+		$imp = 1;
+		if ($order) $filter = "ORDER BY {$order}";
+
+		$dataIn = array();
+		if ($additional){
+			$dataIn = $additional['in'];
+		}
+		if ($condition){
+			foreach ($condition as $key => $value) {
+				if ($value){
+					if ($dbConfig[0]['server']=='mysql'){
+						$field[] = "`{$key}` = '{$value}'";
+					}else{
+
+						if (count($dataIn)>0){
+							if (in_array($key, $dataIn)){
+								$field[] = "{$key} IN ({$value})";
+							}else{
+								$field[] = "{$key} = '{$value}'";
+							}	
+						}else{
+							$field[] = "{$key} = '{$value}'";
+						}
+						
+						
+					}
+					
+				}
+				
+			}
+			$imp = implode(' AND ', $field);
+		}
+
+		$sql = array(
+                'table'=>"{$table}",
+                'field'=>"*",
+                'condition' => "{$imp} {$filter}"
+                );
+
+        $res = $this->lazyQuery($sql,$debug);
+        if ($res) return $res;
+        return false;
 	}
 }
 
