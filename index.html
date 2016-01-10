@@ -27,11 +27,6 @@
 <h3>
 <a id="instalasi" class="anchor" href="#instalasi" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instalasi</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
 <p>Instalasi Framework Codekir tidak berbeda jauh dengan Framework yang lain pada umumnya tidak diperlukan file instalasi pada framework ini yang perlu dilakukan hanyalah menempatkan framework ini pada tempat (folder) yang seharusnya yaitu di dalam document root apache (folder www maupun htdocs). berikut ini langkah - langkah yang harus dilakukan sebelum menggunakan framework codekir</p>
 
 <ul>
@@ -48,6 +43,16 @@
 1. Controller, digunakan untuk menjalankan alur data sesuai dengan permintaan dari user, mengarahkan ke file-file yang berhubungan baik ke model maupun ke file template. File controller berada didalam folder /app/controller/ dengan ekstension .php. 
 2. View, merupakan kumpulan dari template yang digunakan oleh aplikasi, folder ini berada pada direktori /app/view/. didalam direktori view/ bisa dibuat direktori baru sesuai dengan keinginan dalam mengelompokkan file template. Framework ini menggunakan template engine Smarty untuk mengkonversi data dari PHP ke HTML
 3. Model, merupakan interface database yang digunakan dalam aplikasi, semua transaksi yang keluar masuk di database harus melewati file ini. Kumpulan file model berada di bawah direktori /app/model/</p>
+
+<h3>
+<a id="konfigurasi" class="anchor" href="#konfigurasi" aria-hidden="true"><span class="octicon octicon-link"></span></a>Konfigurasi</h3>
+
+<p>/* Konfigurasi APP */
+    $CONFIG['default']['app_status'] = 'Development'; 
+    $CONFIG['default']['app_debug'] = TRUE; 
+    $CONFIG['default']['php_ext'] = '.php'; 
+    $CONFIG['default']['html_ext'] = '.html'; 
+    $CONFIG['default']['default_view'] = 'home';</p>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
