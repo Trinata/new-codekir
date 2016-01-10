@@ -89,10 +89,26 @@ $dbConfig[0]['preftable'] = 'ck';
 
 <p>Jika konfigurasi database sudah sesuai dengan akun pengaturan database yang dituju maka koneksi dari class database ke database bisa dilakukan dengan cara mengaktifkan fungsi berikut ini <code>$this-&gt;loadModel('namaModel');</code> Fungsi diatas akan memanggil file model untuk dieksekusi, file model biasanya berisi baris query database dan secara otomatis melakukan koneksi ke database sesuai dengan konfigurasi yang sudah diatur sebelumnya. Nama model adalah nama file model yang terdapat pada direktori app/model</p>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<h5>
+<a id="menjalankan-query" class="anchor" href="#menjalankan-query" aria-hidden="true"><span class="octicon octicon-link"></span></a>Menjalankan query</h5>
 
-<p>Having trouble with Pages? <a href="https://github.com/TrinataBhayanaka">contact support</a> and we’ll help you sort it out.</p>
+<p>Untuk menjalankan query ke database bisa menggunakan fungsi berikut ini <code>$this-&gt;query($query);</code> atau <code>$this-&gt;fetch($query);</code> Kedua perintah diatas mempunyai fungsi yang berbeda beda, perintah <code>$this-&gt;query</code> digunakan untuk mengeksekusi query dengan operasi <code>INSERT</code>, <code>UPDATE</code> dan <code>DELETE</code> sedangkan perintah <code>$this-&gt;fetch</code> hanya digunakan untuk query dengan operasi SELECT. Kedua perintah tersebut memiliki parameter yang sama untuk digunakan didalam fungsinya yaitu query SQL yang diwakili oleh variabel $query. Hasil eksekusi perintah <code>$this-&gt;query</code> dalam bentuk nilai bolean yaitu 0 untuk gagal dan 1 untuk berhasil sedangkan untuk perintah <code>$this-&gt;fetch</code> nilai kembaliannya dalam bentuk array</p>
+
+<h5>
+<a id="hasil-query" class="anchor" href="#hasil-query" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hasil query</h5>
+
+<p>Hasil query yang dieksekusi pada perintah <code>$this-&gt;fetch</code> akan berupa array, untuk mengakses data hasil pemrosesan perintah tersebut adalah dengan cara mengakses indeksnya terlebih dahulu, aturan dasar pada variabel array</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$sql</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>YOUR SELECT QUERY<span class="pl-pds">"</span></span>;                  </span>
+<span class="pl-s1"><span class="pl-smi">$result</span> <span class="pl-k">=</span> <span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>fetch(<span class="pl-smi">$sql</span>);        </span>
+<span class="pl-s1"><span class="pl-k">if</span> (<span class="pl-smi">$result</span>){</span>
+<span class="pl-s1">    <span class="pl-k">foreach</span> (<span class="pl-smi">$result</span> <span class="pl-k">as</span> <span class="pl-smi">$key</span> <span class="pl-k">=&gt;</span> <span class="pl-smi">$value</span>) {   </span>
+<span class="pl-s1">       <span class="pl-smi">$value</span>[<span class="pl-s"><span class="pl-pds">'</span>YOUR-INDEX<span class="pl-pds">'</span></span>];</span>
+<span class="pl-s1">    }                      </span>
+<span class="pl-s1">}<span class="pl-s"><span class="pl-pds">`</span><span class="pl-pds">`</span><span class="pl-pds">`</span></span></span>
+<span class="pl-s1"><span class="pl-s"></span></span>
+<span class="pl-s1"><span class="pl-s">### Support or Contact</span></span>
+<span class="pl-s1"><span class="pl-s">Having trouble with Pages? [contact support](https://github.com/TrinataBhayanaka) and we’ll help you sort it out.</span></span></pre></div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/Trinata/new-codekir">CodeKir Framework</a> is maintained by <a href="https://github.com/Trinata">Trinata</a>.</span>
