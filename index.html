@@ -92,7 +92,15 @@ $dbConfig[0]['preftable'] = 'ck';
 <h5>
 <a id="menjalankan-query" class="anchor" href="#menjalankan-query" aria-hidden="true"><span class="octicon octicon-link"></span></a>Menjalankan query</h5>
 
-<p>Untuk menjalankan query ke database bisa menggunakan fungsi berikut ini <code>$this-&gt;query($query);</code> atau <code>$this-&gt;fetch($query);</code> Kedua perintah diatas mempunyai fungsi yang berbeda beda, perintah <code>$this-&gt;query</code> digunakan untuk mengeksekusi query dengan operasi <code>INSERT</code>, <code>UPDATE</code> dan <code>DELETE</code> sedangkan perintah <code>$this-&gt;fetch</code> hanya digunakan untuk query dengan operasi SELECT. Kedua perintah tersebut memiliki parameter yang sama untuk digunakan didalam fungsinya yaitu query SQL yang diwakili oleh variabel $query. Hasil eksekusi perintah <code>$this-&gt;query</code> dalam bentuk nilai bolean yaitu 0 untuk gagal dan 1 untuk berhasil sedangkan untuk perintah <code>$this-&gt;fetch</code> nilai kembaliannya dalam bentuk array</p>
+<p>Untuk menjalankan query ke database bisa menggunakan fungsi berikut ini </p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>query(<span class="pl-smi">$query</span>);</span></pre></div>
+
+<p>atau </p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>fetch(<span class="pl-smi">$query</span>);</span></pre></div>
+
+<p>Kedua perintah diatas mempunyai fungsi yang berbeda beda, perintah <code>$this-&gt;query</code> digunakan untuk mengeksekusi query dengan operasi <code>INSERT</code>, <code>UPDATE</code> dan <code>DELETE</code> sedangkan perintah <code>$this-&gt;fetch</code> hanya digunakan untuk query dengan operasi SELECT. Kedua perintah tersebut memiliki parameter yang sama untuk digunakan didalam fungsinya yaitu query SQL yang diwakili oleh variabel $query. Hasil eksekusi perintah <code>$this-&gt;query</code> dalam bentuk nilai bolean yaitu 0 untuk gagal dan 1 untuk berhasil sedangkan untuk perintah <code>$this-&gt;fetch</code> nilai kembaliannya dalam bentuk array</p>
 
 <h5>
 <a id="hasil-query" class="anchor" href="#hasil-query" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hasil query</h5>
@@ -120,7 +128,7 @@ $dbConfig[0]['preftable'] = 'ck';
 <span class="pl-s1">        );</span>
 <span class="pl-s1"><span class="pl-smi">$result</span> <span class="pl-k">=</span> <span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>lazyQuery(<span class="pl-smi">$sql</span>,<span class="pl-smi">$debug</span>);</span></pre></div>
 
-<p>Fungsi diatas (lazyQuery) adalah fungsi bantuan untuk menjalankan query operasi SELECT ke database dengan parameter data dengan tipe data array, data array pada variabel $sql memiliki index yang merujuk ke tabel database yang akan diakses antara lain index 'table' digunakan untuk definisi nama tabel, 'field' untuk definisi field apa saja yang mau diambil, index 'condition' berupa kondisi yang akan digunakan dalam query dan index 'limit' berfungsi untuk membatasi jumlah data yang dihasilkan. Sedangkan fungsi bantuan untuk operasi UPDATE dan INSERT bisa menggunakan fungsi berikut ini</p>
+<p>Fungsi diatas (lazyQuery) adalah fungsi bantuan untuk menjalankan query operasi <code>SELECT</code> ke database dengan parameter data dengan tipe data array, data array pada variabel <code>$sql</code> memiliki index yang merujuk ke tabel database yang akan diakses antara lain index 'table' digunakan untuk definisi nama tabel, 'field' untuk definisi field apa saja yang mau diambil, index 'condition' berupa kondisi yang akan digunakan dalam query dan index 'limit' berfungsi untuk membatasi jumlah data yang dihasilkan. Sedangkan fungsi bantuan untuk operasi <code>UPDATE</code> dan <code>INSERT</code> bisa menggunakan fungsi berikut ini</p>
 
 <div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>save(<span class="pl-s"><span class="pl-pds">"</span>update<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$table</span><span class="pl-pds">"</span></span>, <span class="pl-smi">$data</span>, <span class="pl-smi">$id</span>, <span class="pl-smi">$debug</span>);</span></pre></div>
 
@@ -133,7 +141,7 @@ $dbConfig[0]['preftable'] = 'ck';
 <li>
 <code>$data</code>, adalah variabel array yang berisi hasil post data dari form, bentuk datanya dalam format array 1 dimensi</li>
 <li>
-<code>$id</code>, apabila menggunakan metode “update” maka variabel ini harus terdefinisi namun jika menggunakan metode “insert” maka variabel ini bisa dikosongkan</li>
+<code>$id</code>, apabila menggunakan metode "update" maka variabel ini harus terdefinisi namun jika menggunakan metode “insert” maka variabel ini bisa dikosongkan</li>
 <li>
 <code>$debug</code>, berfungsi untuk melakukan debuging query, nilainya berupa boolean dengan ketentuan nilai 1 untuk mengaktifkan mode debug sedangkan nilai 0 untuk menonaktifkan mode debug</li>
 </ul>
