@@ -70,6 +70,25 @@ $CONFIG['admin']['html_ext'] = '.html';
 $CONFIG['admin']['default_view'] = 'home';
 </code></pre>
 
+<p>Konfigurasi Database </p>
+
+<pre><code>$dbConfig[0]['host'] = 'host'; 
+$dbConfig[0]['user'] = 'username'; 
+$dbConfig[0]['pass']   = 'password'; 
+$dbConfig[0]['name']   = 'database_name'; 
+$dbConfig[0]['server'] = 'mysql'; 
+$dbConfig[0]['prefix'] = ''; 
+$dbConfig[0]['preftable'] = 'ck'; 
+</code></pre>
+
+<h3>
+<a id="referensi-database" class="anchor" href="#referensi-database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Referensi Database</h3>
+
+<h5>
+<a id="memanggil-model" class="anchor" href="#memanggil-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>Memanggil Model</h5>
+
+<p>Jika konfigurasi database sudah sesuai dengan akun pengaturan database yang dituju maka koneksi dari class database ke database bisa dilakukan dengan cara mengaktifkan fungsi berikut ini <code>$this-&gt;loadModel('namaModel');</code> Fungsi diatas akan memanggil file model untuk dieksekusi, file model biasanya berisi baris query database dan secara otomatis melakukan koneksi ke database sesuai dengan konfigurasi yang sudah diatur sebelumnya. Nama model adalah nama file model yang terdapat pada direktori app/model</p>
+
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
