@@ -105,10 +105,43 @@ $dbConfig[0]['preftable'] = 'ck';
 <span class="pl-s1">    <span class="pl-k">foreach</span> (<span class="pl-smi">$result</span> <span class="pl-k">as</span> <span class="pl-smi">$key</span> <span class="pl-k">=&gt;</span> <span class="pl-smi">$value</span>) {   </span>
 <span class="pl-s1">       <span class="pl-smi">$value</span>[<span class="pl-s"><span class="pl-pds">'</span>YOUR-INDEX<span class="pl-pds">'</span></span>];</span>
 <span class="pl-s1">    }                      </span>
-<span class="pl-s1">}<span class="pl-s"><span class="pl-pds">`</span><span class="pl-pds">`</span><span class="pl-pds">`</span></span></span>
-<span class="pl-s1"><span class="pl-s"></span></span>
-<span class="pl-s1"><span class="pl-s">### Support or Contact</span></span>
-<span class="pl-s1"><span class="pl-s">Having trouble with Pages? [contact support](https://github.com/TrinataBhayanaka) and we’ll help you sort it out.</span></span></pre></div>
+<span class="pl-s1">}</span></pre></div>
+
+<h5>
+<a id="query-helper" class="anchor" href="#query-helper" aria-hidden="true"><span class="octicon octicon-link"></span></a>Query Helper</h5>
+
+<p>Class database juga sudah dilengkapi dengan fungsi bantuan untuk melakukan eksekusi query ke database, salah satu contoh fungsi yang bisa dilakukan adalah sebagai berikut </p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$sql</span> <span class="pl-k">=</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>table<span class="pl-pds">'</span></span><span class="pl-k">=&gt;</span><span class="pl-s"><span class="pl-pds">"</span>user<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">        <span class="pl-s"><span class="pl-pds">'</span>field<span class="pl-pds">'</span></span><span class="pl-k">=&gt;</span><span class="pl-s"><span class="pl-pds">"</span>COUNT(1) AS total<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">        <span class="pl-s"><span class="pl-pds">'</span>condition<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>n_status = 1<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">        <span class="pl-s"><span class="pl-pds">'</span>limit<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">10</span>                </span>
+<span class="pl-s1">        );</span>
+<span class="pl-s1"><span class="pl-smi">$result</span> <span class="pl-k">=</span> <span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>lazyQuery(<span class="pl-smi">$sql</span>,<span class="pl-smi">$debug</span>);</span></pre></div>
+
+<p>Fungsi diatas (lazyQuery) adalah fungsi bantuan untuk menjalankan query operasi SELECT ke database dengan parameter data dengan tipe data array, data array pada variabel $sql memiliki index yang merujuk ke tabel database yang akan diakses antara lain index 'table' digunakan untuk definisi nama tabel, 'field' untuk definisi field apa saja yang mau diambil, index 'condition' berupa kondisi yang akan digunakan dalam query dan index 'limit' berfungsi untuk membatasi jumlah data yang dihasilkan. Sedangkan fungsi bantuan untuk operasi UPDATE dan INSERT bisa menggunakan fungsi berikut ini</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>save(<span class="pl-s"><span class="pl-pds">"</span>update<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$table</span><span class="pl-pds">"</span></span>, <span class="pl-smi">$data</span>, <span class="pl-smi">$id</span>, <span class="pl-smi">$debug</span>);</span></pre></div>
+
+<p>Fungsi tersebut memiliki 5 parameter yang harus didefinisikan terlebih dahulu, berikut penjelasan kelima parameter tersebut</p>
+
+<ul>
+<li>"update", adalah parameter pertama dari fungsi ini yang bertujuan untuk mendefinisikan metode yang akan dieksekusi. Nilai dari parameter ini yaitu "update" ataupun "insert"</li>
+<li>
+<code>$table</code>, merupakan definisi variabel nama tabel pada database yang akan dituju</li>
+<li>
+<code>$data</code>, adalah variabel array yang berisi hasil post data dari form, bentuk datanya dalam format array 1 dimensi</li>
+<li>
+<code>$id</code>, apabila menggunakan metode “update” maka variabel ini harus terdefinisi namun jika menggunakan metode “insert” maka variabel ini bisa dikosongkan</li>
+<li>
+<code>$debug</code>, berfungsi untuk melakukan debuging query, nilainya berupa boolean dengan ketentuan nilai 1 untuk mengaktifkan mode debug sedangkan nilai 0 untuk menonaktifkan mode debug</li>
+</ul>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? <a href="https://github.com/TrinataBhayanaka">contact support</a> and we’ll help you sort it out.</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/Trinata/new-codekir">CodeKir Framework</a> is maintained by <a href="https://github.com/Trinata">Trinata</a>.</span>
