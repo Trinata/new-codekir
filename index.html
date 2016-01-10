@@ -50,15 +50,16 @@
 <h3>
 <a id="konfigurasi" class="anchor" href="#konfigurasi" aria-hidden="true"><span class="octicon octicon-link"></span></a>Konfigurasi</h3>
 
-<p>Konfigurasi front-end
-    /* Konfigurasi APP */
-    $CONFIG['default']['app_status'] = 'Development';
-    $CONFIG['default']['app_debug'] = TRUE;
-    $CONFIG['default']['php_ext'] = '.php';
-    $CONFIG['default']['html_ext'] = '.html';
-    $CONFIG['default']['default_view'] = 'home';</p>
+<p>Konfigurasi front-end</p>
 
-<pre><code>/* Konfigurasi ADMIN */
+<pre><code>/* Konfigurasi APP */
+$CONFIG['default']['app_status'] = 'Development';
+$CONFIG['default']['app_debug'] = TRUE;
+$CONFIG['default']['php_ext'] = '.php';
+$CONFIG['default']['html_ext'] = '.html';
+$CONFIG['default']['default_view'] = 'home';
+
+/* Konfigurasi ADMIN */
 $CONFIG['admin']['app_status'] = 'Development';
 $CONFIG['admin']['app_debug'] = TRUE;
 $CONFIG['admin']['php_ext'] = '.php';
