@@ -39,20 +39,24 @@
 <h3>
 <a id="model-view-control" class="anchor" href="#model-view-control" aria-hidden="true"><span class="octicon octicon-link"></span></a>Model-View-Control</h3>
 
-<p>Framework ini menggunakan prinsip Model View Control (MVC) seperti pada beberapa framework lainnya. Framework ini akan menjalankan fungsi controller yang ada pada folder app/.
-1. Controller, digunakan untuk menjalankan alur data sesuai dengan permintaan dari user, mengarahkan ke file-file yang berhubungan baik ke model maupun ke file template. File controller berada didalam folder /app/controller/ dengan ekstension .php. 
-2. View, merupakan kumpulan dari template yang digunakan oleh aplikasi, folder ini berada pada direktori /app/view/. didalam direktori view/ bisa dibuat direktori baru sesuai dengan keinginan dalam mengelompokkan file template. Framework ini menggunakan template engine Smarty untuk mengkonversi data dari PHP ke HTML
-3. Model, merupakan interface database yang digunakan dalam aplikasi, semua transaksi yang keluar masuk di database harus melewati file ini. Kumpulan file model berada di bawah direktori /app/model/</p>
+<p>Framework ini menggunakan prinsip Model View Control (MVC) seperti pada beberapa framework lainnya. Framework ini akan menjalankan fungsi controller yang ada pada folder app/.</p>
+
+<ul>
+<li>Controller, digunakan untuk menjalankan alur data sesuai dengan permintaan dari user, mengarahkan ke file-file yang berhubungan baik ke model maupun ke file template. File controller berada didalam folder /app/controller/ dengan ekstension .php. </li>
+<li>View, merupakan kumpulan dari template yang digunakan oleh aplikasi, folder ini berada pada direktori /app/view/. didalam direktori view/ bisa dibuat direktori baru sesuai dengan keinginan dalam mengelompokkan file template. Framework ini menggunakan template engine Smarty untuk mengkonversi data dari PHP ke HTML</li>
+<li>Model, merupakan interface database yang digunakan dalam aplikasi, semua transaksi yang keluar masuk di database harus melewati file ini. Kumpulan file model berada di bawah direktori /app/model/</li>
+</ul>
 
 <h3>
 <a id="konfigurasi" class="anchor" href="#konfigurasi" aria-hidden="true"><span class="octicon octicon-link"></span></a>Konfigurasi</h3>
 
-<p><code>/* Konfigurasi APP */
+<pre><code>/* Konfigurasi APP */
 $CONFIG['default']['app_status'] = 'Development';
 $CONFIG['default']['app_debug'] = TRUE;
 $CONFIG['default']['php_ext'] = '.php';
 $CONFIG['default']['html_ext'] = '.html';
-$CONFIG['default']['default_view'] = 'home';</code></p>
+$CONFIG['default']['default_view'] = 'home';
+</code></pre>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
